@@ -30,11 +30,17 @@ a=os.system(main12)
 ...
 ```
 
-4. Run “predict.py”
+3. Run “predict.py”
 
-5. When “predict.py” is running, .pcd file will be open in new window, and select a viewpoint to generate the ‘1.png’ and ‘matrix.txt’ which will be used in next step. you should make sure that ‘1.png’ has the target region that you need, which will help the model to predict the target regions.
+![screenshot for select a viewpoint](./fig/select%20viewpoint.jpg)
 
-6. After step4, the everything we need to do is done. The file named “result.pcd” will appear in the folder. 
+
+4. When “predict.py” is running, .pcd file will be open in new window, and select a viewpoint to generate the ‘1.png’ and ‘matrix.txt’ which will be used in next step. you should make sure that ‘1.png’ has the target region that you need, which will help the model to predict the target regions.
+
+5. After step3, the everything we need to do is done. The file named “result.pcd” will appear in the folder. Then open result.pcd you could see the result of pose normalization for the input pcd file.
+
+![screenshot for result of pose normalization](./fig/normalized%20visual.jpg)
+
 
 
 
