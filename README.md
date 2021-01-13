@@ -1,6 +1,10 @@
 ## 2D/3D fusion-based robust pose normalization of 3D livestock from multiple RGB-D cameras
 Created by <a href="http://pclcn.org" target="_blank">Jie Lu</a>, <a href="http://clst.cau.edu.cn/art/2018/8/8/art_31197_580629.html" target="_blank">Hao Guo</a> from China Agricultural University.
 
+###New place for all the code and data.
+Since it's difficult to upload large files in github. So We move all the code and data to here. This git repository will be updated anymore. Please go to this new site.
+
+https://gitee.com/guohaolys/robust-pose-normalization-of-3D-livestock
 ### Introduction
 A 2D/3D fusion-based robust livestock pose normalization method for 3D point clouds captured from multiple RGB-D cameras, is proposed.
 This method fuse the information of 2D images and 3D data to improve the robustness of computing process. Specifically, by introducing the state-of-the-art 2D object detection technology, both procedure of forward estimation and segmentation for livestock are optimized.
@@ -10,6 +14,7 @@ Furthermore, our approach can handle different livestock species, providing sati
 ### Installation
 Before execute the code, please install some python package:
 Matplotlib and tensorflow-gpu==1.13.2 and keras==2.1.5 and numpy==1.18.2 and pillow==7.1.2 and so on.
+
 
 ### Usage
 To normalize one point clouds sample:
