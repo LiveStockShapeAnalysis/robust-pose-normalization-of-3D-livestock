@@ -1,7 +1,7 @@
 ## 2D/3D fusion-based robust pose normalization of 3D livestock from multiple RGB-D cameras
 Created by <a href="http://pclcn.org" target="_blank">Jie Lu</a>, <a href="http://clst.cau.edu.cn/art/2018/8/8/art_31197_580629.html" target="_blank">Hao Guo</a> from China Agricultural University.
 
-###New place for all the code and data.
+### New place for all the code and data.
 Since it's difficult to upload large files in github. So We move all the code and data to here. This git repository will be updated anymore. Please go to this new site.
 
 https://gitee.com/guohaolys/robust-pose-normalization-of-3D-livestock
@@ -48,4 +48,25 @@ a=os.system(main12)
 
 
 
+6. The details of the `database`. The following is the content of the folder of database:
 
+|Folder name|File properties|Details|
+|---|---|---|
+|img|2D data|this folder contains the image which is used to train and test|
+|img/cow_rgb|RGB image(cattle) | this folder contains 909 RGB images|
+|img/cow_rgb_anno|the annotation for RGB image(cattle)  | this folder contains 909 `xml`|
+|img/cow_single|single virtual image(cattle) | this folder contains 924 single virtual images|
+|img/cow_single_anno|the annotation for single virtual image(cattle)  | this folder contains 924 `xml`|
+|img/cow_triple|triple virtual image(cattle) | this folder contains 309 triple virtual images|
+|img/cow_triple_anno|the annotation for triple virtual image(cattle)  | this folder contains 309 `xml`|
+|img/pig_rgb|RGB image(pig) | this folder contains 1095 RGB images|
+|img/pig_rgb_anno|the annotation for RGB image(pig)  | this folder contains 1095 `xml`|
+|img/pig_single|single virtual image(pig) | this folder contains 39 single virtual images|
+|img/pig_single_anno|the annotation for single virtual image(pig)  | this folder contains 39 `xml`|
+|img/pig_double|double virtual image(pig) | this folder contains 1224 double virtual images|
+|img/pig_double_anno|the annotation for double virtual image(pig)  | this folder contains 1224 `xml`|
+|img/test|the images are used to test|this folder contains the 20 percent of all above images|
+|img/train|the images are used to train|this folder contains the 80 percent of all above images|
+|ply_pcd|3D data|this folder contains the pcd file or ply file|
+|ply_pcd/cow_triple|pcd file for pig|this folder contains 439 pcd file |
+|ply_pcd/pig_double|ply file for cattle|this folder contains 103 ply file|
